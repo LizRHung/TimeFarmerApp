@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">Time Farmer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <string name="title_activity_set1">行事曆</string>
+    <string name="title_activity_set3">登入</string>
+    <string name="title_activity_set_activity3_1">註冊</string>
+    <string name="title_activity_set_activity3_2">會員中心</string>
+    <string name="title_activity_set_activity3_2_1">會員資料</string>
+    <string name="title_activity_set_activity3_2_2">好友管理</string>
+    <string name="title_activity_set4">設定</string>
+    <string name="title_activity_set5">說明</string>
+
+    <string name="select">請選擇</string>
+
+    <string name="work_session_duration">一循環時間</string>
+    <string name="short_break_duration">短休息時間</string>
+    <string name="long_break_duration">長休息時間</string>
+    <string name="long_break_interval">循環長休息</string>
+    <string name="notifications">提醒模式&#160;&#160;&#160;&#160;</string>
+    <string name="keep_screen_on">鎖定螢幕&#160;&#160;&#160;&#160;</string>
+    <string name="notice">通知&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</string>
+    <string name="add_project">新增專案</string>
+    <string name="add_task">新增任務</string>
+    <string-array name="work_session">
+        <item>10 分鐘</item>
+        <item>15 分鐘</item>
+        <item>20 分鐘</item>
+        <item>25 分鐘</item>
+        <item>30 分鐘</item>
+        <item>35 分鐘</item>
+        <item>40 分鐘</item>
+        <item>45 分鐘</item>
+        <item>50 分鐘</item>
+        <item>55 分鐘</item>
+        <item>60 分鐘</item>
+        <item>75 分鐘</item>
+        <item>90 分鐘</item>
+        <item>120 分鐘</item>
+    </string-array>
+    <string-array name="short_break">
+        <item>1 分鐘</item>
+        <item>2 分鐘</item>
+        <item>3 分鐘</item>
+        <item>4 分鐘</item>
+        <item>5 分鐘</item>
+        <item>6 分鐘</item>
+        <item>7 分鐘</item>
+        <item>8 分鐘</item>
+        <item>9 分鐘</item>
+        <item>10 分鐘</item>
+        <item>15 分鐘</item>
+        <item>20 分鐘</item>
+    </string-array>
+    <string-array name="long_break">
+        <item>5 分鐘</item>
+        <item>10 分鐘</item>
+        <item>15 分鐘</item>
+        <item>20 分鐘</item>
+        <item>25 分鐘</item>
+        <item>30 分鐘</item>
+        <item>45 分鐘</item>
+        <item>60 分鐘</item>
+    </string-array>
+    <string-array name="long_break_interval">
+        <item>2 循環</item>
+        <item>3 循環</item>
+        <item>4 循環</item>
+        <item>5 循環</item>
+        <item>6 循環</item>
+        <item>7 循環</item>
+        <item>8 循環</item>
+        <item>9 循環</item>
+        <item>10 循環</item>
+    </string-array>
+    <string-array name="notifications">
+        <item>響鈴</item>
+        <item>震動</item>
+        <item>靜音</item>
+    </string-array>
+    <string-array name="time_choose">
+        <item>分鐘</item>
+        <item>小時</item>
+        <item>天</item>
+        <item>月</item>
+    </string-array>
+    <string name="title_activity_user_edit">修改資料</string>
+    <string name="title_activity_project_detail">" 編輯專案"</string>
+    <string name="title_activity_task_detail">編輯任務</string>
+    <string name="title_activity_friend">好友管理</string>
+    <string name="title_activity_time_analysize">時間分析</string>
+    <string name="title_activity_rank">排行競賽</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_explain">說明</string>
+
+</resources>

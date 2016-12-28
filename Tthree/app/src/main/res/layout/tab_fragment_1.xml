@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--成長頁面 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back1">
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/txt_tc"
+        android:text="\n收集"
+        android:background="@drawable/tc"
+        android:layout_alignTop="@+id/txt_collecttime"
+        android:layout_alignParentEnd="true"
+        android:textAlignment="center"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="25dp"
+        android:text="工作時間累計："
+        android:id="@+id/txt_collecttime"
+        android:layout_marginTop="15dp"
+        android:background="@android:color/background_light"
+        android:textSize="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_getstage"
+        android:textSize="20dp"
+        android:layout_alignBottom="@+id/txt_tc"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/background_light"
+        android:layout_alignParentStart="true"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/img_tgroup"
+        android:src="@drawable/g00"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txt_tc" />
+
+</RelativeLayout>
